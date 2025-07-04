@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<script>
+            // Redirect away from old hash routing
+            var hash = window.location.hash;
+            if (hash.includes('=')) {
+                var replacement = window.location.href.includes('?') ? '&' : '?';
+                window.location.href = window.location.href.split('#').join(replacement);
+            }
+        </script>
+<meta charset="utf-8"/>
+<meta content="rZjZat9Ohm4KMhMsv77ccYc8AwpVVkmE28ykwUSd" name="csrf-token"/>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+<title>Damage Statistics - Mythic Liberation of Undermine | Warcraft Logs | Warcraft Logs</title>
+<meta content="Damage Statistics - Mythic Liberation of Undermine | Warcraft Logs" property="og:title">
+<meta content="website" property="og:type">
+<meta content="Warcraft Logs" property="og:site_name">
+<meta content="The War Within damage rankings and statistics for Liberation of Undermine in World of Warcraft." name="description">
+<meta content="The War Within damage rankings and statistics for Liberation of Undermine in World of Warcraft." property="og:description"/>
+<meta content="https://assets.rpglogs.com/img/warcraft/favicon.png?v=4" property="og:image"/>
+<meta content="https://assets.rpglogs.com/img/warcraft/favicon.png?v=4" name="twitter:image"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Warcraft Logs","url":"https://www.warcraftlogs.com","image":"https://assets.rpglogs.com/img/warcraft/favicon.png?v=4","potentialAction":{"@type":"SearchAction","target":"https://www.warcraftlogs.com/search?term={search_term_string}","query-input":"required name=search_term_string"},"sameAs":["https://twitter.com/WarcraftLogs"],"publisher":{"@type":"Organization","name":"Archon","url":"https://www.archon.gg"}}</script>
+<link href="https://de.warcraftlogs.com/zone/statistics/42?class=Any" hreflang="de" rel="alternate"/>
+<link href="https://www.warcraftlogs.com/zone/statistics/42?class=Any" hreflang="en" rel="alternate"/>
+<link href="https://es.warcraftlogs.com/zone/statistics/42?class=Any" hreflang="es" rel="alternate"/>
+<link href="https://fr.warcraftlogs.com/zone/statistics/42?class=Any" hreflang="fr" rel="alternate"/>
+<link href="https://it.warcraftlogs.com/zone/statistics/42?class=Any" hreflang="it" rel="alternate"/>
+<link href="https://br.warcraftlogs.com/zone/statistics/42?class=Any" hreflang="pt-BR" rel="alternate"/>
+<link href="https://ru.warcraftlogs.com/zone/statistics/42?class=Any" hreflang="ru" rel="alternate"/>
+<link href="https://ko.warcraftlogs.com/zone/statistics/42?class=Any" hreflang="ko" rel="alternate"/>
+<link href="https://tw.warcraftlogs.com/zone/statistics/42?class=Any" hreflang="zh-TW" rel="alternate"/>
+<link href="https://cn.warcraftlogs.com/zone/statistics/42?class=Any" hreflang="zh-CN" rel="alternate"/>
+<link href="https://www.warcraftlogs.com/zone/statistics/42?class=Any" hreflang="x-default" rel="alternate"/>
+<link href="https://assets.rpglogs.com/css/global.207380f37275d1d9.css" rel="stylesheet" type="text/css"/>
+<link href="https://assets.rpglogs.com/css/app.b0c8f8d705cab960.css" rel="stylesheet" type="text/css"/>
+<link href="https://assets.rpglogs.com/libs/material-design-iconic-font@2.2.0/css/material-design-iconic-font.min.css" rel="stylesheet" type="text/css"/>
+<link href="https://assets.rpglogs.com/libs/jquery-ui.css" rel="stylesheet" type="text/css"/>
+<link href="https://assets.rpglogs.com/libs/malihu-custom-scrollbar-plugin@3.1.6/jquery.mCustomScrollbar.min.css" rel="stylesheet" type="text/css"/>
+<link href="https://assets.rpglogs.com/img/warcraft/favicon.png" rel="icon" type="image/png"/>
+<link href="https://assets.rpglogs.com/libs/scrollbar/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css"/>
+<style>
+#table-container { margin-right: 320px; }
+
+#filter-metric-selection-container > ul { min-width:350px!important; }
+
+.menu-boss-icon, .menu-actor-icon, .menu-faction-icon { width:20px; height:20px; border:1px solid #555555; margin-right:8px; vertical-align:-6px; --size:20; }
+
+.main-table-name { padding-left:5px !important; white-space:nowrap }
+.bar-gradient { height: 12px }
+.guild-name { overflow:hidden;max-width:150px;white-space:nowrap;text-overflow:ellipsis }
+.server-name { overflow:hidden; max-width:150px;white-space:nowrap;text-overflow:ellipsis }
+#rankings-menubar { position:relative; z-index:9999; }
+#rankings-bar { background-color:#001520; border-bottom:1px solid #555555; padding:5px 0 }
+#rankings-bar-inset  { width:90vw; max-width:1800px; margin:auto; font-size:18px; padding:0 10px }
+#controls-menubar { position:relative; z-index:9998; margin-top:-1px; margin-left:10px; margin-right:10px; background:#000020; font-size:11px }
+#graph { margin: 10px 0; border:1px solid #555555; height:60vh }
+
+.rankings-bar-options { float:right; }
+.rankings-bar-option { color:white !important; float:left; margin-left:15px  }
+.rankings-bar-option:hover { color: rgb(70, 197, 255) !important; background-color:#002040 }
+
+.info-bar { border: 1px solid #555555; margin: 5px 0; background-color:#202020; padding:3px 9px; }
+.responsive #content { max-width:1800px !important; width:90vw; }
+
+.tier-bar { margin: 5px 10px; display:flex; }
+.tier-tab { margin-left:-1px; border:1px solid #555555; padding:6px 12px; color: #c0c0c0 !important; cursor:pointer }
+.tier-tab.selected, .tier-tab:hover { background-color: #002040; color:white !important; }
+
+.ranking-metric-type { font-size:11px; color:#a0a0a0!important; float:right; }
+
+#rankings-banner { text-align:center; padding-top:10px }
+
+
+.boxed-type-selector { display:flex; margin:10px 0; }
+.boxed-type-selector > a { flex: 1; border:1px solid #555555; padding:5px; text-align:center; color:#a0a0a0 }
+.boxed-type-selector > a.selected { background-color:#000020; color:white }
+.boxed-type-selector > a:hover { color:white }
+
+@media (max-width:100px) {
+	.rankings-bar-option-text {
+		display:none;
+	}
+}
+
+#right-vertical-banner { float: right; height: 100% }
+@media (max-width:1000px) {
+	#right-vertical-banner { display:none; }
+	#table-container { margin-right: 0 }
+}
+
+@media (max-width:768px) {
+	.main-table-name {
+		min-width:125px;
+		width:125px;
+		max-width:125px;
+		text-overflow:ellipsis;
+		overflow:hidden;
+	}
+	
+	#graph {
+		display:none
+	}
+}
+</style>
+<style>
+          @font-face {
+            font-family: 'ralewayregular';
+            src: url('https://assets.rpglogs.com/fonts/Raleway-Regular-webfont.eot');
+            src: url('https://assets.rpglogs.com/fonts/Raleway-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+            url('https://assets.rpglogs.com/fonts/Raleway-Regular-webfont.woff') format('woff'),
+            url('https://assets.rpglogs.com/fonts/Raleway-Regular-webfont.ttf') format('truetype'),
+            url('https://assets.rpglogs.com/fonts/Raleway-Regular-webfont.svg#ralewayregular') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+          }
+
+          /* Tighten up scrollers in reports pages */
+          .mCSB_inside > .mCSB_container {
+            margin-right: 20px !important
+          }
+
+          .mCSB_inside > .mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden {
+            margin-right: 0 !important
+          }
+
+          .search-white {
+            color: white;
+            font-size: 22px;
+          }
+
+          .searchbutton-mini-image {
+            padding-left: 7px;
+            padding-top: 3px;
+          }
+
+          .compact-search-container {
+            height: 36px;
+            display: flex;
+            align-items: center;
+          }
+
+          .search-compact {
+            font-size: 28px;
+            margin-top: -3px;
+          }
+
+          .zmdi-hc-spin {
+            animation: zmdi-spin 2.5s infinite linear;
+          }
+
+          .edge-hide {
+            opacity: 0.01;
+          }
+
+          #qc-cmp2-persistent-link {
+            left: 0;
+            right: auto;
+            font-size: 10px;
+            background-color: #300040
+          }
+
+          .logo-container {
+            width: auto !important;
+          }
+        </style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script>
+    window.googleAnalyticsViewModel = {"id":"UA-45206045-1","siteTitle":"Warcraft Logs","isLoggedIn":false,"isSubscribed":false,"subscriptionStatus":0,"sendPageViewOnContentLoaded":false,"isAdBlocking":false};
+</script>
+<script src="https://assets.rpglogs.com/js/global/googleAnalytics.ad8fa776381e2af4.js"></script>
+<!-- ads-script-tag -->
+<script async="" src="https://btloader.com/tag?o=5150306120761344&amp;upapi=true"></script>
+<script>
+    window.isAdBlockingCookieName = 'support-metrics-v1';
+    </script>
+<script src="https://assets.rpglogs.com/libs/jquery@3.2.0/jquery.min.js"></script>
+<script src="https://assets.rpglogs.com/libs/jqueryui@1.12.1/jquery-ui.min.js"></script>
+<script src="https://assets.rpglogs.com/libs/lazyload@2.0.0-beta.2/lazyload.min.js"></script>
+<script>
+          jQuery.browser = {};
+          (function () {
+            jQuery.browser.msie = false;
+            jQuery.browser.version = 0;
+            if (navigator.userAgent.match(/MSIE ([0-9]+)\./)) {
+              jQuery.browser.msie = true;
+              jQuery.browser.version = RegExp.$1;
+            }
+          })();
+
+          function edgeRevert() {
+            $(".edge-hide").css('transform', '');
+            $(".edge-hide").removeClass('edge-hide');
+          }
+
+          function edgeZoom() {
+            $(".edge-hide").css('transform', 'scale(2)');
+            setTimeout(edgeRevert, 50);
+          }
+
+          function edgeSpriteFix(container) {
+            if (navigator.userAgent.indexOf("Edge") == -1)
+              return
+            var selector = (container ? container + ' ' : '') + ".sprite"
+            $(selector).addClass('edge-hide')
+            setTimeout(edgeZoom, 10)
+          }
+        </

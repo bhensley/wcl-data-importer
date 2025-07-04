@@ -1,0 +1,275 @@
+[
+  {
+    "class": "Evoker",
+    "spec": "Devastation",
+    "score": 83.73,
+    "parses": 28751,
+    "scraped_at": "2025-07-04T18:03:11.481674"
+  },
+  {
+    "class": "Hunter",
+    "spec": "Marksmanship",
+    "score": 82.4,
+    "parses": 28534,
+    "scraped_at": "2025-07-04T18:03:11.481694"
+  },
+  {
+    "class": "Warlock",
+    "spec": "Destruction",
+    "score": 81.37,
+    "parses": 32506,
+    "scraped_at": "2025-07-04T18:03:11.481697"
+  },
+  {
+    "class": "Hunter",
+    "spec": "Survival",
+    "score": 81.21,
+    "parses": 2191,
+    "scraped_at": "2025-07-04T18:03:11.481698"
+  },
+  {
+    "class": "Warlock",
+    "spec": "Affliction",
+    "score": 80.33,
+    "parses": 8577,
+    "scraped_at": "2025-07-04T18:03:11.481700"
+  },
+  {
+    "class": "Paladin",
+    "spec": "Retribution",
+    "score": 79.66,
+    "parses": 49741,
+    "scraped_at": "2025-07-04T18:03:11.481702"
+  },
+  {
+    "class": "Rogue",
+    "spec": "Assassination",
+    "score": 79.62,
+    "parses": 17404,
+    "scraped_at": "2025-07-04T18:03:11.481703"
+  },
+  {
+    "class": "Warrior",
+    "spec": "Arms",
+    "score": 79.57,
+    "parses": 14701,
+    "scraped_at": "2025-07-04T18:03:11.481705"
+  },
+  {
+    "class": "Demon Hunter",
+    "spec": "Havoc",
+    "score": 79.5,
+    "parses": 34445,
+    "scraped_at": "2025-07-04T18:03:11.481706"
+  },
+  {
+    "class": "Warrior",
+    "spec": "Fury",
+    "score": 79.42,
+    "parses": 24170,
+    "scraped_at": "2025-07-04T18:03:11.481707"
+  },
+  {
+    "class": "Priest",
+    "spec": "Shadow",
+    "score": 79.08,
+    "parses": 20619,
+    "scraped_at": "2025-07-04T18:03:11.481709"
+  },
+  {
+    "class": "Death Knight",
+    "spec": "Frost",
+    "score": 78.93,
+    "parses": 10014,
+    "scraped_at": "2025-07-04T18:03:11.481710"
+  },
+  {
+    "class": "Mage",
+    "spec": "Arcane",
+    "score": 78.83,
+    "parses": 29980,
+    "scraped_at": "2025-07-04T18:03:11.481712"
+  },
+  {
+    "class": "Monk",
+    "spec": "Windwalker",
+    "score": 78.71,
+    "parses": 16890,
+    "scraped_at": "2025-07-04T18:03:11.481713"
+  },
+  {
+    "class": "Death Knight",
+    "spec": "Unholy",
+    "score": 78.57,
+    "parses": 25489,
+    "scraped_at": "2025-07-04T18:03:11.481715"
+  },
+  {
+    "class": "Mage",
+    "spec": "Fire",
+    "score": 78.17,
+    "parses": 12253,
+    "scraped_at": "2025-07-04T18:03:11.481716"
+  },
+  {
+    "class": "Rogue",
+    "spec": "Subtlety",
+    "score": 78.0,
+    "parses": 4001,
+    "scraped_at": "2025-07-04T18:03:11.481717"
+  },
+  {
+    "class": "Druid",
+    "spec": "Feral",
+    "score": 78.0,
+    "parses": 6249,
+    "scraped_at": "2025-07-04T18:03:11.481719"
+  },
+  {
+    "class": "Hunter",
+    "spec": "Beast Mastery",
+    "score": 77.99,
+    "parses": 35219,
+    "scraped_at": "2025-07-04T18:03:11.481720"
+  },
+  {
+    "class": "Shaman",
+    "spec": "Elemental",
+    "score": 77.42,
+    "parses": 17662,
+    "scraped_at": "2025-07-04T18:03:11.481722"
+  },
+  {
+    "class": "Shaman",
+    "spec": "Enhancement",
+    "score": 77.08,
+    "parses": 12926,
+    "scraped_at": "2025-07-04T18:03:11.481723"
+  },
+  {
+    "class": "Evoker",
+    "spec": "Augmentation",
+    "score": 77.02,
+    "parses": 2273,
+    "scraped_at": "2025-07-04T18:03:11.481724"
+  },
+  {
+    "class": "Warlock",
+    "spec": "Demonology",
+    "score": 76.32,
+    "parses": 10455,
+    "scraped_at": "2025-07-04T18:03:11.481726"
+  },
+  {
+    "class": "Rogue",
+    "spec": "Outlaw",
+    "score": 76.23,
+    "parses": 5443,
+    "scraped_at": "2025-07-04T18:03:11.481727"
+  },
+  {
+    "class": "Druid",
+    "spec": "Balance",
+    "score": 75.22,
+    "parses": 38257,
+    "scraped_at": "2025-07-04T18:03:11.481729"
+  },
+  {
+    "class": "Mage",
+    "spec": "Frost",
+    "score": 74.61,
+    "parses": 14802,
+    "scraped_at": "2025-07-04T18:03:11.481730"
+  },
+  {
+    "class": "Warrior",
+    "spec": "Protection",
+    "score": 46.17,
+    "parses": 10985,
+    "scraped_at": "2025-07-04T18:03:11.481732"
+  },
+  {
+    "class": "Death Knight",
+    "spec": "Blood",
+    "score": 42.74,
+    "parses": 16267,
+    "scraped_at": "2025-07-04T18:03:11.481733"
+  },
+  {
+    "class": "Druid",
+    "spec": "Guardian",
+    "score": 40.19,
+    "parses": 5781,
+    "scraped_at": "2025-07-04T18:03:11.481734"
+  },
+  {
+    "class": "Monk",
+    "spec": "Brewmaster",
+    "score": 40.0,
+    "parses": 7066,
+    "scraped_at": "2025-07-04T18:03:11.481736"
+  },
+  {
+    "class": "Demon Hunter",
+    "spec": "Vengeance",
+    "score": 39.9,
+    "parses": 12959,
+    "scraped_at": "2025-07-04T18:03:11.481741"
+  },
+  {
+    "class": "Paladin",
+    "spec": "Protection",
+    "score": 37.5,
+    "parses": 18856,
+    "scraped_at": "2025-07-04T18:03:11.481742"
+  },
+  {
+    "class": "Monk",
+    "spec": "Mistweaver",
+    "score": 12.55,
+    "parses": 20444,
+    "scraped_at": "2025-07-04T18:03:11.481744"
+  },
+  {
+    "class": "Paladin",
+    "spec": "Holy",
+    "score": 10.29,
+    "parses": 13725,
+    "scraped_at": "2025-07-04T18:03:11.481745"
+  },
+  {
+    "class": "Priest",
+    "spec": "Discipline",
+    "score": 7.35,
+    "parses": 15497,
+    "scraped_at": "2025-07-04T18:03:11.481747"
+  },
+  {
+    "class": "Druid",
+    "spec": "Restoration",
+    "score": 5.1,
+    "parses": 17514,
+    "scraped_at": "2025-07-04T18:03:11.481748"
+  },
+  {
+    "class": "Shaman",
+    "spec": "Restoration",
+    "score": 4.43,
+    "parses": 30590,
+    "scraped_at": "2025-07-04T18:03:11.481749"
+  },
+  {
+    "class": "Evoker",
+    "spec": "Preservation",
+    "score": 3.15,
+    "parses": 5538,
+    "scraped_at": "2025-07-04T18:03:11.481751"
+  },
+  {
+    "class": "Priest",
+    "spec": "Holy",
+    "score": 3.08,
+    "parses": 24095,
+    "scraped_at": "2025-07-04T18:03:11.481752"
+  }
+]
